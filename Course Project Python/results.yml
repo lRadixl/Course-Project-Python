@@ -1,0 +1,717 @@
+'1':
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: b
+            '10':
+                correct_answer: c
+                user_answer: b
+            '2':
+                correct_answer: b
+                user_answer: c
+            '3':
+                correct_answer: c
+                user_answer: b
+            '4':
+                correct_answer: a
+                user_answer: c
+            '5':
+                correct_answer: d
+                user_answer: b
+            '6':
+                correct_answer: d
+                user_answer: c
+            '7':
+                correct_answer: c
+                user_answer: c
+            '8':
+                correct_answer: c
+                user_answer: d
+            '9':
+                correct_answer: c
+                user_answer: c
+        time_spend: '0:00:52.412051'
+        user_score: 3
+Bogdan:
+    C# test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: a
+                user_answer: a
+            '10':
+                correct_answer: b
+                user_answer: b
+            '2':
+                correct_answer: c
+                user_answer: c
+            '3':
+                correct_answer: a
+                user_answer: a
+            '4':
+                correct_answer: d
+                user_answer: d
+            '5':
+                correct_answer: b
+                user_answer: a
+            '6':
+                correct_answer: a
+                user_answer: a
+            '7':
+                correct_answer: a
+                user_answer: a
+            '8':
+                correct_answer: d
+                user_answer: d
+            '9':
+                correct_answer: c
+                user_answer: c
+        time_spend: '0:01:51.199093'
+        user_score: 9
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: ''
+            '10':
+                correct_answer: c
+                user_answer: ''
+            '2':
+                correct_answer: b
+                user_answer: ''
+            '3':
+                correct_answer: c
+                user_answer: ''
+            '4':
+                correct_answer: a
+                user_answer: ''
+            '5':
+                correct_answer: d
+                user_answer: ''
+            '6':
+                correct_answer: d
+                user_answer: ''
+            '7':
+                correct_answer: c
+                user_answer: ''
+            '8':
+                correct_answer: c
+                user_answer: ''
+            '9':
+                correct_answer: c
+                user_answer: ''
+        time_spend: '0:00:09.174330'
+        user_score: 0
+Pablo:
+    Python advanced:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: c
+            '10':
+                correct_answer: b
+                user_answer: c
+            '2':
+                correct_answer: c
+                user_answer: c
+            '3':
+                correct_answer: c
+                user_answer: c
+            '4':
+                correct_answer: b
+                user_answer: c
+            '5':
+                correct_answer: d
+                user_answer: c
+            '6':
+                correct_answer: c
+                user_answer: d
+            '7':
+                correct_answer: d
+                user_answer: c
+            '8':
+                correct_answer: a
+                user_answer: b
+            '9':
+                correct_answer: a
+                user_answer: a
+        time_spend: '0:00:26.034855'
+        user_score: 3
+Radix:
+    C# test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: b
+            '10':
+                correct_answer: a
+                user_answer: b
+            '2':
+                correct_answer: a
+                user_answer: b
+            '3':
+                correct_answer: a
+                user_answer: b
+            '4':
+                correct_answer: b
+                user_answer: b
+            '5':
+                correct_answer: a
+                user_answer: a
+            '6':
+                correct_answer: c
+                user_answer: b
+            '7':
+                correct_answer: d
+                user_answer: c
+            '8':
+                correct_answer: c
+                user_answer: c
+            '9':
+                correct_answer: d
+                user_answer: b
+        time_spend: '0:00:16.114155'
+        user_score: 4
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: b
+            '10':
+                correct_answer: c
+                user_answer: c
+            '2':
+                correct_answer: b
+                user_answer: b
+            '3':
+                correct_answer: c
+                user_answer: b
+            '4':
+                correct_answer: a
+                user_answer: b
+            '5':
+                correct_answer: d
+                user_answer: b
+            '6':
+                correct_answer: d
+                user_answer: b
+            '7':
+                correct_answer: c
+                user_answer: c
+            '8':
+                correct_answer: c
+                user_answer: c
+            '9':
+                correct_answer: c
+                user_answer: c
+        time_spend: '0:00:15.224670'
+        user_score: 6
+    Python types:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: c
+                user_answer: a
+            '10':
+                correct_answer: a
+                user_answer: c
+            '2':
+                correct_answer: b
+                user_answer: b
+            '3':
+                correct_answer: d
+                user_answer: c
+            '4':
+                correct_answer: b
+                user_answer: b
+            '5':
+                correct_answer: a
+                user_answer: c
+            '6':
+                correct_answer: c
+                user_answer: a
+            '7':
+                correct_answer: d
+                user_answer: c
+            '8':
+                correct_answer: c
+                user_answer: d
+            '9':
+                correct_answer: d
+                user_answer: b
+        time_spend: '0:00:18.478997'
+        user_score: 2
+Rx:
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: b
+            '10':
+                correct_answer: c
+                user_answer: b
+            '2':
+                correct_answer: b
+                user_answer: c
+            '3':
+                correct_answer: c
+                user_answer: b
+            '4':
+                correct_answer: a
+                user_answer: d
+            '5':
+                correct_answer: d
+                user_answer: d
+            '6':
+                correct_answer: d
+                user_answer: c
+            '7':
+                correct_answer: c
+                user_answer: b
+            '8':
+                correct_answer: c
+                user_answer: b
+            '9':
+                correct_answer: c
+                user_answer: c
+        time_spend: '0:00:14.664615'
+        user_score: 3
+dodo:
+    Python types:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: b
+            '10':
+                correct_answer: a
+                user_answer: b
+            '2':
+                correct_answer: a
+                user_answer: c
+            '3':
+                correct_answer: a
+                user_answer: b
+            '4':
+                correct_answer: b
+                user_answer: a
+            '5':
+                correct_answer: a
+                user_answer: a
+            '6':
+                correct_answer: c
+                user_answer: b
+            '7':
+                correct_answer: d
+                user_answer: c
+            '8':
+                correct_answer: c
+                user_answer: d
+            '9':
+                correct_answer: d
+                user_answer: c
+        time_spend: '0:00:17.740909'
+        user_score: 2
+fg:
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: b
+            '10':
+                correct_answer: c
+                user_answer: d
+            '2':
+                correct_answer: b
+                user_answer: c
+            '3':
+                correct_answer: c
+                user_answer: c
+            '4':
+                correct_answer: a
+                user_answer: b
+            '5':
+                correct_answer: d
+                user_answer: c
+            '6':
+                correct_answer: d
+                user_answer: c
+            '7':
+                correct_answer: c
+                user_answer: c
+            '8':
+                correct_answer: c
+                user_answer: d
+            '9':
+                correct_answer: c
+                user_answer: a
+        time_spend: '0:00:14.675083'
+        user_score: 3
+fg]:
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: ''
+            '10':
+                correct_answer: c
+                user_answer: ''
+            '2':
+                correct_answer: b
+                user_answer: ''
+            '3':
+                correct_answer: c
+                user_answer: ''
+            '4':
+                correct_answer: a
+                user_answer: ''
+            '5':
+                correct_answer: d
+                user_answer: ''
+            '6':
+                correct_answer: d
+                user_answer: ''
+            '7':
+                correct_answer: c
+                user_answer: ''
+            '8':
+                correct_answer: c
+                user_answer: ''
+            '9':
+                correct_answer: c
+                user_answer: ''
+        time_spend: '0:00:06.196898'
+        user_score: 0
+fs:
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: ''
+            '10':
+                correct_answer: c
+                user_answer: ''
+            '2':
+                correct_answer: b
+                user_answer: ''
+            '3':
+                correct_answer: c
+                user_answer: ''
+            '4':
+                correct_answer: a
+                user_answer: ''
+            '5':
+                correct_answer: d
+                user_answer: ''
+            '6':
+                correct_answer: d
+                user_answer: ''
+            '7':
+                correct_answer: c
+                user_answer: ''
+            '8':
+                correct_answer: c
+                user_answer: ''
+            '9':
+                correct_answer: c
+                user_answer: ''
+        time_spend: '0:00:08.924143'
+        user_score: 0
+hgsfah:
+    Python types:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: c
+                user_answer: b
+            '10':
+                correct_answer: a
+                user_answer: c
+            '2':
+                correct_answer: b
+                user_answer: c
+            '3':
+                correct_answer: d
+                user_answer: b
+            '4':
+                correct_answer: b
+                user_answer: a
+            '5':
+                correct_answer: a
+                user_answer: b
+            '6':
+                correct_answer: c
+                user_answer: b
+            '7':
+                correct_answer: d
+                user_answer: d
+            '8':
+                correct_answer: c
+                user_answer: b
+            '9':
+                correct_answer: d
+                user_answer: d
+        time_spend: '0:00:16.815602'
+        user_score: 2
+radix:
+    Python types:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: c
+                user_answer: a
+            '10':
+                correct_answer: a
+                user_answer: a
+            '2':
+                correct_answer: b
+                user_answer: a
+            '3':
+                correct_answer: d
+                user_answer: a
+            '4':
+                correct_answer: b
+                user_answer: a
+            '5':
+                correct_answer: a
+                user_answer: a
+            '6':
+                correct_answer: c
+                user_answer: a
+            '7':
+                correct_answer: d
+                user_answer: a
+            '8':
+                correct_answer: c
+                user_answer: a
+            '9':
+                correct_answer: d
+                user_answer: a
+        time_spend: '0:00:08.947222'
+        user_score: 2
+rsdd:
+-   Python types:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: c
+            '10':
+                correct_answer: a
+                user_answer: c
+            '2':
+                correct_answer: a
+                user_answer: c
+            '3':
+                correct_answer: a
+                user_answer: c
+            '4':
+                correct_answer: b
+                user_answer: a
+            '5':
+                correct_answer: a
+                user_answer: a
+            '6':
+                correct_answer: c
+                user_answer: b
+            '7':
+                correct_answer: d
+                user_answer: c
+            '8':
+                correct_answer: c
+                user_answer: d
+            '9':
+                correct_answer: d
+                user_answer: d
+        time_spend: '0:00:17.541223'
+        user_score: 2
+rx:
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: b
+            '10':
+                correct_answer: c
+                user_answer: c
+            '2':
+                correct_answer: b
+                user_answer: c
+            '3':
+                correct_answer: c
+                user_answer: c
+            '4':
+                correct_answer: a
+                user_answer: b
+            '5':
+                correct_answer: d
+                user_answer: d
+            '6':
+                correct_answer: d
+                user_answer: c
+            '7':
+                correct_answer: c
+                user_answer: c
+            '8':
+                correct_answer: c
+                user_answer: c
+            '9':
+                correct_answer: c
+                user_answer: c
+        time_spend: '0:00:18.669610'
+        user_score: 7
+sf:
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: ''
+            '10':
+                correct_answer: c
+                user_answer: ''
+            '2':
+                correct_answer: b
+                user_answer: ''
+            '3':
+                correct_answer: c
+                user_answer: ''
+            '4':
+                correct_answer: a
+                user_answer: ''
+            '5':
+                correct_answer: d
+                user_answer: ''
+            '6':
+                correct_answer: d
+                user_answer: ''
+            '7':
+                correct_answer: c
+                user_answer: ''
+            '8':
+                correct_answer: c
+                user_answer: ''
+            '9':
+                correct_answer: c
+                user_answer: ''
+        time_spend: '0:00:14.682639'
+        user_score: 0
+vladyslav:
+    Python types:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: c
+                user_answer: a
+            '10':
+                correct_answer: a
+                user_answer: b
+            '2':
+                correct_answer: b
+                user_answer: a
+            '3':
+                correct_answer: d
+                user_answer: a
+            '4':
+                correct_answer: b
+                user_answer: a
+            '5':
+                correct_answer: a
+                user_answer: a
+            '6':
+                correct_answer: c
+                user_answer: d
+            '7':
+                correct_answer: d
+                user_answer: c
+            '8':
+                correct_answer: c
+                user_answer: a
+            '9':
+                correct_answer: d
+                user_answer: d
+        time_spend: '0:00:06.421000'
+        user_score: 2
+"\u0411\u043E\u0433\u0434\u0430\u043D":
+    Python types:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: c
+                user_answer: a
+            '10':
+                correct_answer: a
+                user_answer: a
+            '2':
+                correct_answer: b
+                user_answer: a
+            '3':
+                correct_answer: d
+                user_answer: a
+            '4':
+                correct_answer: b
+                user_answer: a
+            '5':
+                correct_answer: a
+                user_answer: a
+            '6':
+                correct_answer: c
+                user_answer: a
+            '7':
+                correct_answer: d
+                user_answer: a
+            '8':
+                correct_answer: c
+                user_answer: a
+            '9':
+                correct_answer: d
+                user_answer: a
+        time_spend: '0:00:11.386279'
+        user_score: 2
+"\u041F\u0430\u0432\u043B\u043E":
+    Python types:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: c
+                user_answer: b
+            '10':
+                correct_answer: a
+                user_answer: a
+            '2':
+                correct_answer: b
+                user_answer: c
+            '3':
+                correct_answer: d
+                user_answer: b
+            '4':
+                correct_answer: b
+                user_answer: a
+            '5':
+                correct_answer: a
+                user_answer: d
+            '6':
+                correct_answer: c
+                user_answer: c
+            '7':
+                correct_answer: d
+                user_answer: d
+            '8':
+                correct_answer: c
+                user_answer: b
+            '9':
+                correct_answer: d
+                user_answer: d
+        time_spend: '0:00:31.817177'
+        user_score: 4

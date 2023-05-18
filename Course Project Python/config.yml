@@ -1,0 +1,6 @@
+tests:
+    - filename: tests/test_python.yml
+      title: Python test
+    - filename: tests/csharp_test.yml
+      title: C# test
+

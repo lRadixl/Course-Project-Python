@@ -1,0 +1,86 @@
+questions:
+- answers:
+    a: int
+    b: bool
+    c: str
+    d: float
+  correct_answer: b
+  id: '1'
+  question: Python type that represents a boolean value?
+- answers:
+    a: To declare a variable.
+    b: To iterate over a sequence of elements.
+    c: To define a function.
+    d: To perform conditional execution of code.
+  correct_answer: b
+  id: '2'
+  question: What is the purpose of the "if" statement in Python?
+- answers:
+    a: list
+    b: tuple
+    c: array
+    d: dictionary
+  correct_answer: c
+  id: '3'
+  question: Which of the following is NOT a valid Python data type?
+- answers:
+    a: Prints the value of a variable to the console
+    b: Reads user input from the console
+    c: Performs mathematical calculations
+    d: Defines a new function
+  correct_answer: a
+  id: '4'
+  question: What does the "print" function do in Python?
+- answers:
+    a: /* This is a comment */
+    b: <!-- This is a comment -->
+    c: // This is a comment
+    d: "# This is a comment"
+  correct_answer: d
+  id: '5'
+  question: How do you write a single-line comment in Python?
+- answers:
+    a: = 2.5
+    b: = 2
+    c : = 2.0
+    d: = 2.2
+  correct_answer: d
+  id: '6'
+  question: What is the output of the following code snippet?
+    x = 5
+    y = 2
+    result = x // y
+    print(result)
+- answers:
+    a: To create a loop
+    b: To define a function
+    c: To check a condition and execute code based on the result
+    d: To perform mathematical operations
+  correct_answer: c
+  id: '7'
+  question: What is the purpose of the "if" statement in Python?
+- answers:
+    a: Returns the sum of two numbers
+    b: Converts a string to uppercase
+    c: Returns the length of a string, list, or other sequence
+    d: Rounds a floating-point number to the nearest integer
+  correct_answer: c
+  id: '8'
+  question: What does the "len" function do in Python?
+- answers:
+    a: Returns the sum of two numbers
+    b: Converts a string to uppercase
+    c: Returns the length of a string, list, or other sequence
+    d: Rounds a floating-point number to the nearest integer
+  correct_answer: c
+  id: '9'
+  question: How do you open a file in Python for reading?
+- answers:
+    a: dict.delete(key)
+    b: dict.remove(key)
+    c: del dict[key]
+    d: dict.pop(key)
+  correct_answer: c
+  id: '10'
+  question: How do you remove an element from a dictionary in Python?
+title: Python test
