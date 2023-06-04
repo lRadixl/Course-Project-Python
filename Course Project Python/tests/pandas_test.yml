@@ -1,0 +1,82 @@
+questions:
+- answers:
+    a: A type of car engine
+    b: A powerful data manipulation library for Python
+    c: A programming language for creating web pages
+    d: A type of candy
+  correct_answer: b
+  id: '1'
+  question: What is pandas?
+- answers:
+    a: A type of fruit
+    b: A type of dance
+    c: A programming language for artificial intelligence
+    d: A method for reading and writing Excel files
+  correct_answer: d
+  id: '2'
+  question: How can you use pandas to handle Excel files?
+- answers:
+    a: A function for filtering data based on specific conditions
+    b: A type of bird
+    c: A programming language for game development
+    d: A type of vegetable
+  correct_answer: a
+  id: '3'
+  question: What is the purpose of the "filter" function in pandas?
+- answers:
+    a: A method for merging two DataFrames based on common columns
+    b: A type of fish
+    c: A programming language for mobile app development
+    d: A type of dessert
+  correct_answer: a
+  id: '4'
+  question: How can you combine two DataFrames using pandas?
+- answers:
+    a: A type of shoe
+    b: A type of flower
+    c: A function for calculating descriptive statistics of numerical data
+    d: A type of shoe
+  correct_answer: c
+  id: '5'
+  question: What does the "describe" function do in pandas?
+- answers:
+    a:  A programming language for data analysis
+    b: A type of instrument
+    c: A method for grouping data based on one or more columns
+    d: A type of hairstyle
+  correct_answer: c
+  id: '6'
+  question: How can you group data using pandas?
+- answers:
+    a: A type of mountain
+    b: A function for handling missing data in pandas DataFrame
+    c: A programming language for scientific computing
+    d: A type of board game
+  correct_answer: b
+  id: '7'
+  question: What is the purpose of the "fillna" function in pandas?
+- answers:
+    a: A method for sorting data in a pandas DataFrame
+    b: A type of vehicle
+    c: A programming language for machine learning
+    d: A type of clothing
+  correct_answer: a
+  id: '8'
+  question: How can you sort data in pandas?
+- answers:
+    a: A type of music genre
+    b: A type of planet
+    c: A programming language for web scraping
+    d: A function for creating visualizations from pandas data structures
+  correct_answer: d
+  id: '9'
+  question: What is the purpose of the "plot" function in pandas?
+- answers:
+    a: A type of sport
+    b: A type of tree
+    c: A programming language for database management
+    d: A method for saving pandas DataFrame to a CSV file
+  correct_answer: d
+  id: '10'
+  question: How can you save a pandas DataFrame as a CSV file?
+title: Pandas test

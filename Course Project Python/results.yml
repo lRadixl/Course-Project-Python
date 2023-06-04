@@ -571,6 +571,42 @@ rx:
                 user_answer: c
         time_spend: '0:00:18.669610'
         user_score: 7
+sadsa:
+    Python test:
+        max_score: 10
+        result:
+            '1':
+                correct_answer: b
+                user_answer: c
+            '10':
+                correct_answer: a
+                user_answer: ''
+            '2':
+                correct_answer: d
+                user_answer: c
+            '3':
+                correct_answer: a
+                user_answer: b
+            '4':
+                correct_answer: a
+                user_answer: c
+            '5':
+                correct_answer: c
+                user_answer: c
+            '6':
+                correct_answer: c
+                user_answer: c
+            '7':
+                correct_answer: b
+                user_answer: b
+            '8':
+                correct_answer: a
+                user_answer: c
+            '9':
+                correct_answer: a
+                user_answer: b
+        time_spend: '0:00:12.471222'
+        user_score: 3
 sf:
     Python test:
         max_score: 10
