@@ -1,6 +1,6 @@
 tests:
     - filename: tests/test_python.yml
-      title: Python test
+      title: Тест Python
     - filename: tests/pandas_test.yml
-      title: Pandas test
+      title: Тест Pandas
 

@@ -8,13 +8,13 @@ SAVE_FILE = 'results.yml'
 
 
 def get_all_tests():
-    with open(CONFIG, 'r') as f:
+    with open(CONFIG, 'r', encoding='utf-8') as f:
         config = yaml.safe_load(f.read())
     return config['tests']
 
 
 def get_test(filename):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         test = yaml.safe_load(f.read())
     return test
 
@@ -29,7 +29,7 @@ def select_test(tests):
 
 
 def save_result(username, result):
-    with open(SAVE_FILE, 'r') as f:
+    with open(SAVE_FILE, 'r', encoding='utf-8') as f:
         prev_result = yaml.safe_load(f.read()) or {}
 
     user_data = prev_result.get(username, None)
@@ -38,7 +38,7 @@ def save_result(username, result):
     else:
         prev_result.update({username: result})
 
-    with open(SAVE_FILE, 'w') as f:
+    with open(SAVE_FILE, 'w', encoding='utf-8') as f:
         yaml.dump(prev_result, f, indent=4)
 
 
@@ -69,10 +69,12 @@ def show_answers(questions, results):
     for question in questions:
         user_answer = results[question['id']]['user_answer']
         correct_answer = question['correct_answer']
-        messagebox.showinfo("Question", f"{question['question']}\nВаша відповідь: {user_answer}\nПравельна відповідь: {correct_answer}")
+        messagebox.showinfo("Question", f"{question['question']}\nВаша відповідь: {user_answer}\nПравильна відповідь: {correct_answer}")
 
 
-def start_test(test):
+def start_test(test, instruction_window):
+    instruction_window.destroy()
+
     username = simpledialog.askstring("Ім'я", "Введіть ваше ім'я")
     start = datetime.now()
     print('Start timer')
@@ -92,7 +94,7 @@ def start_test(test):
         )
     end = datetime.now()
     total_time_spend = end - start
-    messagebox.showinfo("Test Time", 'You done your test in ' + str(total_time_spend))
+    messagebox.showinfo("Test Time", 'Ви виконали тест за ' + str(total_time_spend))
     result = {test['title']: {
             'result': test_result,
             'time_spend': str(total_time_spend),
@@ -104,10 +106,24 @@ def start_test(test):
     show_answers(questions, test_result)
 
 
+def show_instructions(test):
+    instruction_window = Toplevel()
+    instruction_window.title("Інструкція")
+
+    instructions = test.get('instructions', '1.Введіть ваше імя в поле для введення.\n 2.Для кожного питання у тесті\n Прочитайте питання.\n Оберіть один з варіантів відповідей, використовуючи радіокнопки.\n Натисніть кнопку "Submit", щоб перевірити вашу відповідь та перейти до наступного питання.\n 3.Після закінчення тесту зявиться повідомлення з часом, витраченим на тестування.\n 4. Результати тесту, включаючи ваші відповіді та правильні відповіді, будуть збережені в файлі "results.yml".\n 5. Якщо ви бажаєте, можете переглянути ваші відповіді та правильні відповіді на кожне питання.\n 6. Закрийте програму після завершення тестування.')
+    instruction_label = tk.Label(instruction_window, text=instructions)
+    instruction_label.pack()
+
+    start_test_button = tk.Button(instruction_window, text='Почати тест', command=lambda: start_test(test, instruction_window))
+    start_test_button.pack()
+
+    instruction_window.mainloop()
+
+
 def main():
     tests = get_all_tests()
     test = select_test(tests)
-    start_test(test)
+    show_instructions(test)
 
 
 if __name__ == '__main__':
@@ -115,4 +131,3 @@ if __name__ == '__main__':
     root.withdraw()
     main()
     root.mainloop()
-    

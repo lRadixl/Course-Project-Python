@@ -6,75 +6,75 @@ questions:
     d: float
   correct_answer: b
   id: '1'
-  question: Python type that represents a boolean value?
+  question: Тип даних у Python, який представляє булеве значення?
 - answers:
-    a: To declare a variable.
-    b: To iterate over a sequence of elements.
-    c: To define a function.
-    d: To perform conditional execution of code.
+    a: Для оголошення змінної.
+    b: Для ітерації по послідовності елементів.
+    c: Для визначення функції.
+    d: Для виконання умовного виконання коду.
   correct_answer: b
   id: '2'
-  question: What is the purpose of the "if" statement in Python?
+  question: Яка мета оператора "if" у Python?
 - answers:
-    a: list
-    b: tuple
-    c: array
-    d: dictionary
+    a: список
+    b: кортеж
+    c: масив
+    d: словник
   correct_answer: c
   id: '3'
-  question: Which of the following is NOT a valid Python data type?
+  question: Який з наступних типів даних не є допустимим у Python?
 - answers:
-    a: Prints the value of a variable to the console
-    b: Reads user input from the console
-    c: Performs mathematical calculations
-    d: Defines a new function
+    a: Виводить значення змінної на консоль
+    b: Зчитує введення користувача з консолі
+    c: Виконує математичні обчислення
+    d: Визначає нову функцію
   correct_answer: a
   id: '4'
-  question: What does the "print" function do in Python?
+  question: Що робить функція "print" у Python?
 - answers:
-    a: /* This is a comment */
-    b: <!-- This is a comment -->
-    c: // This is a comment
-    d: "# This is a comment"
+    a: /* Це коментар */
+    b: <!-- Це коментар -->
+    c: // Це коментар
+    d: "# Це коментар"
   correct_answer: d
   id: '5'
-  question: How do you write a single-line comment in Python?
+  question: Як написати однорядковий коментар у Python?
 - answers:
     a: = 2.5
     b: = 2
-    c : = 2.0
+    c: = 2.0
     d: = 2.2
   correct_answer: d
   id: '6'
-  question: What is the output of the following code snippet?
+  question: Який буде результат виконання наступного фрагменту коду?
     x = 5
     y = 2
     result = x // y
     print(result)
 - answers:
-    a: To create a loop
-    b: To define a function
-    c: To check a condition and execute code based on the result
-    d: To perform mathematical operations
+    a: Для створення циклу
+    b: Для визначення функції
+    c: Для перевірки умови і виконання коду на підставі результату
+    d: Для виконання математичних операцій
   correct_answer: c
   id: '7'
-  question: What is the purpose of the "if" statement in Python?
+  question: Яка мета оператора "if" у Python?
 - answers:
-    a: Returns the sum of two numbers
-    b: Converts a string to uppercase
-    c: Returns the length of a string, list, or other sequence
-    d: Rounds a floating-point number to the nearest integer
+    a: Повертає суму двох чисел
+    b: Перетворює рядок у верхній регістр
+    c: Повертає довжину рядка, списку або іншої послідовності
+    d: Округлює десяткове число до найближчого цілого
   correct_answer: c
   id: '8'
-  question: What does the "len" function do in Python?
+  question: Що робить функція "len" у Python?
 - answers:
-    a: Returns the sum of two numbers
-    b: Converts a string to uppercase
-    c: Returns the length of a string, list, or other sequence
-    d: Rounds a floating-point number to the nearest integer
+    a: Повертає суму двох чисел
+    b: Перетворює рядок у верхній регістр
+    c: Повертає довжину рядка, списку або іншої послідовності
+    d: Округлює десяткове число до найближчого цілого
   correct_answer: c
   id: '9'
-  question: How do you open a file in Python for reading?
+  question: Як відкрити файл у Python для зчитування?
 - answers:
     a: dict.delete(key)
     b: dict.remove(key)
@@ -82,5 +82,5 @@ questions:
     d: dict.pop(key)
   correct_answer: c
   id: '10'
-  question: How do you remove an element from a dictionary in Python?
-title: Python test
+  question: Як видалити елемент зі словника у Python?
+title: Тест Python
